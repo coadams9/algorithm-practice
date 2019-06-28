@@ -24,13 +24,7 @@ function isUnique(str) {
 
 isUnique(str)
 
-//diff solution
-// for (var i = 0; i < str.length; i++) {
-//     for (var j = i + 1; j < str.length; j++) {
-//         if (str[i] === str[j]) {
-//             return false; // if match, return false
-//         }
-//     }
-// }
-// return true; // if no match, return true
+//Things Learned: 
+// 1. I thought that if i started at i = 3 that the indexes at 0, 1, 2 were not being checked so I tried to fix it but found it didn't need fixing. The above code works just fine. 
 
+// 2. I learned that when going through characters the first loop pauses on the first element before doing comparisons on every other element
