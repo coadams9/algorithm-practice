@@ -7,26 +7,32 @@
         {
             "type": "node",
             "request": "launch",
+            "name": "compression",
+            "program": "${workspaceFolder}/algorithims/compression"
+        },
+        {
+            "type": "node",
+            "request": "launch",
             "name": "%20",
-            "program": "${workspaceFolder}/%20Implement"
+            "program": "${workspaceFolder}/algorithims/%20Implement"
         },
         {
             "type": "node",
             "request": "launch",
             "name": "Permutation",
-            "program": "${workspaceFolder}/checkPermutation.js"
+            "program": "${workspaceFolder}/algorithims/checkPermutation.js"
         },
         {
             "type": "node",
             "request": "launch",
             "name": "string reversal",
-            "program": "${workspaceFolder}/stringReversal.js"
+            "program": "${workspaceFolder}/algorithims/stringReversal.js"
         },
         {
             "type": "node",
             "request": "launch",
             "name": "unique",
-            "program": "${workspaceFolder}/isUnique.js"
+            "program": "${workspaceFolder}/algorithims/isUnique.js"
         }
     ]
 }
