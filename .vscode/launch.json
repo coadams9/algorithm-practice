@@ -7,13 +7,19 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch Program",
+            "name": "Permutation",
+            "program": "${workspaceFolder}/checkPermutation.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "string reversal",
             "program": "${workspaceFolder}/stringReversal.js"
         },
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch Program",
+            "name": "unique",
             "program": "${workspaceFolder}/isUnique.js"
         }
     ]

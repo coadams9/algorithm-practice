@@ -30,7 +30,7 @@ reverse = (str) => {
     //set an empty string
     let reversed = []
     // CHANGED THIS TO BE AN ARRAY INITIALLY
-    let newArr = str.split([,])
+    let newArr = str.split([])
     for (let i = 0; i < str.length; i++) {
         //for every element in that newArray I pop it off and shuffle it into 'reversed'
         reversed.push(newArr.pop())
