@@ -9,13 +9,17 @@ str = 'aabccccaaa'
 function compression(str) {
     let array = []
     for (i = 0; i < str.length; i++) {
-        let count = 0
-        for (j = 0; j < str.length; j++) {
-            if (str[i] === str[j]) {
-                count++
+        if (str[i] !== str[i - 1]) {
+            let count = 0
+            for (j = 0; j < str.length; j++) {
+                if (str[i] === str[i + 1]) {
+                    count++
+                } else {
+                    break
+                }
             }
+            array.push(str[i].concat(count))
         }
-        array.push(str[i].concat(count))
     }
     console.log(array.join())
 }

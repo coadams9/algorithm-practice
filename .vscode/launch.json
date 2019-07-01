@@ -7,32 +7,38 @@
         {
             "type": "node",
             "request": "launch",
+            "name": "closestToZero",
+            "program": "${workspaceFolder}/algorithms/closestTozero"
+        },
+        {
+            "type": "node",
+            "request": "launch",
             "name": "compression",
-            "program": "${workspaceFolder}/algorithims/compression"
+            "program": "${workspaceFolder}/algorithms/compression"
         },
         {
             "type": "node",
             "request": "launch",
             "name": "%20",
-            "program": "${workspaceFolder}/algorithims/%20Implement"
+            "program": "${workspaceFolder}/algorithms/%20Implement"
         },
         {
             "type": "node",
             "request": "launch",
             "name": "Permutation",
-            "program": "${workspaceFolder}/algorithims/checkPermutation.js"
+            "program": "${workspaceFolder}/algorithms/checkPermutation.js"
         },
         {
             "type": "node",
             "request": "launch",
             "name": "string reversal",
-            "program": "${workspaceFolder}/algorithims/stringReversal.js"
+            "program": "${workspaceFolder}/algorithms/stringReversal.js"
         },
         {
             "type": "node",
             "request": "launch",
             "name": "unique",
-            "program": "${workspaceFolder}/algorithims/isUnique.js"
+            "program": "${workspaceFolder}/algorithms/isUnique.js"
         }
     ]
 }
